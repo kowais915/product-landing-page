@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #EEEEEE;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+}
+#nav-bar{
+    display: flex;
+
+}
+ul{
+    display: flex;
+}
+
+#header li{
+  list-style-type: none;
+
+}
+#header li a{
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 4px;
+    align-items: flex-end;
+    font-size: 20px;
+    padding: 10px;
+
+
+}
+#header-img{
+    width: 15wh;
+    height: 6vh;
+
+}
+
