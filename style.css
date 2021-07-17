@@ -5,6 +5,8 @@
 }
 body{
     background-color: #EEEEEE;
+    margin: 0px;
+    padding: 0px;
 }
 
 #header{
@@ -30,9 +32,23 @@ ul{
     padding: 4px;
     align-items: flex-end;
     font-size: 20px;
-    padding: 10px;
+    padding: 25px;
+    color: black;
 
 
+}
+
+@media (max-width: 600px){
+    #header li a{
+        text-decoration: none;
+        justify-content: space-around;
+        padding: 4px;
+        align-items: flex-end;
+        font-size: 20px;
+        padding: px;
+    
+    
+    }
 }
 #header-img{
     width: 15wh;
@@ -40,3 +56,48 @@ ul{
 
 }
 
+a:hover{
+    position: relative;
+    top: -5px;
+}
+
+/* form */
+#formSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+#email{
+    margin: 25px 100px;
+    height: 35px;
+    width: 400px;
+    
+}
+
+#submit{
+    background-color: #F1C40F;
+    padding: 10px 10px;
+    border: 2px transparent solid;
+    font-weight: bold;
+}
+
+#details{
+padding: 50px 80px 50px 80px;
+}
+
+#para{
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    flex-grow: 3;
+}
+
+#para i.fas{
+    font-size: 100px;
+    flex-grow: 1;
+}
